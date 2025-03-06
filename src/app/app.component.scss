@@ -33,4 +33,9 @@ div {
     box-shadow: 0 0 5px rgba(0, 91, 187, 0.5);
     outline: none;
   }
-  
+  .error-output {
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+  }
