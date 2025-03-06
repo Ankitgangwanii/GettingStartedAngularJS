@@ -10,7 +10,7 @@ import { RouterOutlet } from '@angular/router';
 
 export class AppComponent {
   title = 'HelloWorld';
-  imgUrl = "assets/logo.jpg"; // Ensure logo.jpg is in src/assets/
+  imgUrl = "assets/Logo.jpg"; // Ensure logo.jpg is in src/assets/
 
 
   ngOnInit():void{
