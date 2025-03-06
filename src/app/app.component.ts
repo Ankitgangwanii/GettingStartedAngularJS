@@ -5,10 +5,13 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss'] 
 })
+
 export class AppComponent {
   title = 'HelloWorld';
+  imgUrl = "assets/logo.jpg"; // Ensure logo.jpg is in src/assets/
+
 
   ngOnInit():void{
     this.title = "Hello from BridgeLabz,";
